@@ -2,35 +2,78 @@
 layout: default
 ---
 
-<div class="home-introduction-block">
-  <div class="content-container">
-    <div class="content-inner">
-      <div class="content-left column">
-        {{ content }}
-      </div>
+{% unless paginator.next_page %}
+  <div class="home-introduction-block">
+    <div class="content-container">
+      <div class="content-inner">
+        <div class="content-left column">
+          <h1>Hej!</h1>
+          {{ content }}
+        </div>
 
-      <div class="content-right column">
-        <h1>Hostar</h1>
-        <table>
-          <tr>
-            <td class="person">
-              <a href="https://hendrikpeter.net">
-                <img src="/assets//images/people/peter.jpg" alt="Peter" width="80">
-                <br>
-                <span class="name">Peter</span>
-              </a>
-            </td>
-            <td class="person">
-              <a href="https://hendrikpeter.net">
-                <img src="/assets//images/people/jeger.jpg" alt="Jeger" width="80">
-                <br>
-                <span class="name">Jeger</span>
-              </a>
-            </td>
-            <td></td>
-          </tr>
-        </table>
+        <div class="content-right column">
+          <h1>Hostar</h1>
+          <table>
+            <tr>
+              <td class="person">
+                <a href="https://hendrikpeter.net">
+                  <img src="/assets//images/people/peter.jpg" alt="Peter" width="80">
+                  <br>
+                  <span class="name">Peter</span>
+                </a>
+              </td>
+              <td class="person">
+                <a href="https://hendrikpeter.net">
+                  <img src="/assets//images/people/jeger.jpg" alt="Jeger" width="80">
+                  <br>
+                  <span class="name">Jeger</span>
+                </a>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
+  </div>
+{% endunless %}
+
+<div class="post-container">
+  {% for post in paginator.posts %}
+    <div class="post-teaser-block">
+      <div class="content-container">
+        <h2>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h2>
+        <div class="date">
+          {{ post.date_human }}
+          |
+          {{ post.length }}
+        </div>
+        <div class="excerpt">
+          <a href="{{ post.url | relative_url }}">
+            {{ post.excerpt }}
+          </a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  <div class="content-container">
+    {% if paginator.next_page %}
+    <a class="pagination-button pagination-active next" href="{{ paginator.next_page_path }}">&lt;/— Nyare</a>
+    {% else %}
+      <span class="pagination-button">&lt;/— Nyare</span>
+    {% endif %}
+
+    {% if paginator.previous_page %}
+      <a class="pagination-button pagination-active" href="{{ paginator.previous_page_path }}">Äldre</a>
+    {% else %}
+      <span class="pagination-button">Äldre —&gt;</span>
+    {% endif %}
   </div>
 </div>
