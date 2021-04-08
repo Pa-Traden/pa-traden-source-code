@@ -4,4 +4,8 @@ title: Hem
 path: home
 ---
 
-Hey this is a test
+# Hej!
+
+I "På Tråden" diskuterar Peter van der Meulen och Jeger Ibrahim varje några
+veckor sin ervarentheter och utmaningar inom Java, Ruby, JavaScript, Rust,
+MySql, Postgres och vad som helst som dyker upp.
