@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>På Tråden - {{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+</head>
+<body>
+  <header>
+    <div class="header-inner"></div>
+    <div class="top-navigation">
+      <div class="content-container">
+        <div class="logo">
+          <a href="/">
+            <img src="/assets/images/logo.svg" alt="" height="20">
+          </a>
+        </div>
+
+        <div class="navigation-links {{ page.path }}">
+          <ul>
+            <li><a href="/" class="home">Episodes</a></li>
+            <li><a href="/contact" class="contact">Contact</a></li>
+            <li><a href="https://knightec.se">Produced by Knightec</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="header-title">
+      <h1>
+        På Tråden
+      </h1>
+    </div>
+  </header>
+  {{ content }}
+</body>
+</html>

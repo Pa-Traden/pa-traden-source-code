@@ -1,0 +1,16 @@
+@mixin transition($time: 200ms) {
+  -webkit-transition: all $time ease;
+  -moz-transition: all $time ease;
+  -ms-transition: all $time ease;
+  -o-transition: all $time ease;
+  transition: all $time ease;
+}
+
+@mixin shadow {
+  -webkit-box-shadow: 0 0 20px 0 var(--box-shadow-color);
+  box-shadow: 0 0 20px 0 var(--box-shadow-color);
+}
+
+@mixin text-shadow {
+  text-shadow: 0 0 20px var(--box-shadow-color);
+}
