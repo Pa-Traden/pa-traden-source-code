@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-04-08T22:37:25+02:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">På Tråden</title><link href="/jekyll/update/2021/04/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="På Tråden" /><published>2021-04-08T15:16:46+02:00</published><updated>2021-04-08T15:16:46+02:00</updated><id>/jekyll/update/2021/04/08/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2021/04/08/welcome-to-jekyll.html">&lt;p&gt;Det första avsnitet!
+Peter och Jeger sätter sig i Dewire:s lunchrum och snackar om precis allt de
+håller på med.&lt;br /&gt;
+Jeger delar en del saker som händer inom mySQL och Peter
+berättar om MimeMagic som pajar allt inom Ruby on Rails just nu.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Foo bar baz post content&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Det första avsnitet! Peter och Jeger sätter sig i Dewire:s lunchrum och snackar om precis allt de håller på med. Jeger delar en del saker som händer inom mySQL och Peter berättar om MimeMagic som pajar allt inom Ruby on Rails just nu.</summary></entry></feed>

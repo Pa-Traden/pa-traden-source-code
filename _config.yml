@@ -41,9 +41,6 @@ sass:
   sass_dir: _sass
   style: compressed
 
-paginate: nil
-paginate_path: nil
-
 pagination:
   enabled: true
   per_page: 5
