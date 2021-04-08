@@ -45,7 +45,7 @@ pagination:
   enabled: true
   per_page: 5
 
-destination: ./site
+destination: ./docs
 
 # Exclude from processing.
 # The following items will not be processed, by default.
