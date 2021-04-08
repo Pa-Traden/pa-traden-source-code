@@ -29,7 +29,7 @@ header {
   color: var(--white-text-color);
   text-align: right;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 650px) {
     text-align: center;
   }
 
@@ -38,7 +38,7 @@ header {
     line-height: 55px;
     float: left;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 650px) {
       float: none;
     }
 
@@ -56,6 +56,7 @@ header {
         display: inline;
         font-size: 18px;
         font-weight: bold;
+        white-space: nowrap;
       }
 
       a {
@@ -63,7 +64,7 @@ header {
         text-decoration: none;
         margin: 0 0 0 20px;
 
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 650px) {
          margin: 0 10px;
         }
 
