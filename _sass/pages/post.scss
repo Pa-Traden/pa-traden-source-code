@@ -1,0 +1,56 @@
+.post-page-container {
+  background: var(--content-block-bg-color);
+  margin: 0 0 30px 0;
+  padding: 30px 0;
+
+  .date {
+    font-size: 10px;
+    margin: 0 0 30px 0;
+  }
+
+  .post-content {
+    margin: 30px 0 0 0;
+    line-height: 150%;
+
+    h1, h2, h3, h4 {
+      padding: 30px 0 10px;
+    }
+  }
+
+  a {
+    color: var(--content-red-color);
+    border-bottom: 2px solid var(--transparent-white-color);
+    text-decoration: none;
+    @include transition;
+
+    &:hover {
+      color: var(--content-red-hover-color);
+      border-bottom: 2px solid var(--content-red-hover-color);
+
+    }
+  }
+
+    .plyr--full-ui input[type=range] {
+    color: var(--content-blue-color);
+  }
+
+  .plyr__control--overlaid {
+    background: var(--content-blue-overlay-color);
+  }
+
+  .plyr--video .plyr__control.plyr__tab-focus,
+  .plyr--video .plyr__control:hover,
+  .plyr--video .plyr__control[aria-expanded=true] {
+    background: var(--content-blue-color) !important;
+  }
+
+  .plyr__control.plyr__tab-focus {
+    box-shadow: 0 0 0 5px var(--content-blue-shadow-color);
+  }
+
+  .plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before {
+    background: var(--content-blue-color);
+  }
+
+  --plyr-audio-control-background-hover: var(--content-blue-color)
+}

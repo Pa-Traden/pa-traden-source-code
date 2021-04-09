@@ -23,23 +23,13 @@
     width: 80px;
     text-align: center;
 
-    &:first-child {
-      padding: 0 30px 0 0;
+    &:first-child { padding: 0 30px 0 0;
     }
 
     a {
       color: var(--main-text-color);
       text-decoration: none;
       @include transition;
-
-      .name {
-        border-bottom: 2px solid var(--transparent-white-color);
-        @include transition;
-      }
-
-      img {
-        @include transition;
-      }
 
       &:hover {
         color: var(--main-text-hover-color);
@@ -53,7 +43,21 @@
         }
       }
     }
+
+    .name {
+      border-bottom: 2px solid var(--transparent-white-color);
+      @include transition;
+    }
+
+    img {
+      @include transition;
+      @include circle-shaped;
+    }
   }
+}
+
+.episodes-header {
+  padding: 30px 0 0;
 }
 
 .post-container {
@@ -61,14 +65,20 @@
 
   .post-teaser-block {
     padding: 15px 0;
+    background: var(--content-block-bg-color);
 
     .date {
       font-size: 10px;
     }
 
+    .post-number {
+      color: var(--main-text-hover-color)
+    }
+
     a {
       color: var(--main-text-color);
       text-decoration: none;
+      @include transition;
 
       &:hover {
         color: var(--main-text-hover-color);
@@ -76,3 +86,26 @@
     }
   }
 }
+
+.pagination-on-home {
+  margin: 0 0 30px 0;
+
+  .pagination-button {
+    color: var(--main-text-disabled-color);
+    border-bottom: 2px solid var(--transparent-white-color);
+
+    &.next {
+      padding: 0 30px 0 0;
+    }
+
+    &.pagination-active {
+      color: var(--main-text-color);
+
+      &:hover {
+        color: var(--main-text-hover-color);
+        border-bottom: 2px solid var(--main-text-hover-color);
+      }
+    }
+  }
+}
+

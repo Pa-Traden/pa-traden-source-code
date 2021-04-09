@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:admin="http://webns.net/mvcb/" xmlns:atom="http://www.w3.org/2005/Atom/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fireside="http://fireside.fm/modules/rss/fireside" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" version="2.0" encoding="UTF-8">
+   <channel>
+      {% for latest_post in site.posts limit:1 %}
+        <title>På Tråden</title>
+        <link>{{ site.url }}</link>
+        <pubDate>{{ latest_post.date }}</pubDate>
+        <description>{{ site.description }}</description>
+        <language>sv</language>
+        <itunes:type>episodic</itunes:type>
+        <itunes:subtitle />
+        <itunes:author>Knightec Dewire</itunes:author>
+        <itunes:summary>{{ site.description }}</itunes:summary>
+        <itunes:image href="{{ site.url }}/assets/images/albumart.jpg" />
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:keywords>web development,ruby,javascript,rails,back-end,front-end,app development,graphql,developer,swedish</itunes:keywords>
+        <itunes:owner>
+           <itunes:name>Knightec Dewire</itunes:name>
+           <itunes:email>pa.traden@knightec.se</itunes:email>
+        </itunes:owner>
+        <podcast:locked email="pa.traden@knightec.se">yes</podcast:locked>
+        <itunes:category text="Technology" />
+        <itunes:category text="News">
+           <itunes:category text="Tech News" />
+        </itunes:category>
+      {% endfor %}
+
+      {% for post in site.posts %}
+      <item>
+         <title>{{ post.number }}: {{ post.title | escape }}</title>
+         <link>{{ site.url }}{{ post.url | relative_url }}</link>
+         <guid isPermaLink="false">{{ post.guid }}</guid>
+         <pubDate>{{ post.date }}</pubDate>
+         <author>Knightec Dewire</author>
+         <enclosure url="{{ site.url }}/assets/media/{{post.audio_mp3}}" length="{{ post.audio_mp3_size }}" type="audio/mpeg" />
+         <itunes:episodeType>full</itunes:episodeType>
+         <itunes:author>Knightec Dewire</itunes:author>
+         <itunes:subtitle>{{ post.excerpt | strip_html }}</itunes:subtitle>
+         <itunes:duration>{{ post.audio_mp3_duration }}</itunes:duration>
+         <itunes:explicit>no</itunes:explicit>
+         <itunes:image href="{{ site.url }}/assets/images/albumart.jpg" />
+         <description>{{ post.content | strip_html }}</description>
+         <itunes:keywords>{{ post.keywords }}</itunes:keywords>
+         <content:encoded><![CDATA[{{ post.content | replace: '%20%3C!--more--%3E', '' }}]]></content:encoded>
+         <itunes:summary><![CDATA[{{ post.content | replace: '%20%3C!--more--%3E', '' }}]]></itunes:summary>
+      </item>
+      {% endfor %}
+
+   </channel>
+</rss>

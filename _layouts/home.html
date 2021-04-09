@@ -8,28 +8,28 @@ layout: default
       <div class="content-inner">
         <div class="content-left column">
           <h1>Hej!</h1>
-          {{ content }}
+          {{ site.description }}
         </div>
 
         <div class="content-right column">
           <h1>Hostar</h1>
           <table>
             <tr>
-              <td class="person">
-                <a href="https://hendrikpeter.net">
-                  <img src="/assets//images/people/peter.jpg" alt="Peter" width="80">
-                  <br>
-                  <span class="name">Peter</span>
-                </a>
-              </td>
-              <td class="person">
-                <a href="https://hendrikpeter.net">
-                  <img src="/assets//images/people/jeger.jpg" alt="Jeger" width="80">
-                  <br>
-                  <span class="name">Jeger</span>
-                </a>
-              </td>
-              <td></td>
+              {% assign users = site.users | where:"active", true | sort: "first_name" %}
+              {% for user in users %}
+                <td class="person">
+                  {% if user.link != null %}
+                    <a href="https://hendrikpeter.net" target="_blank">
+                  {% endif %}
+                    <img src="/assets/images/people/{{ user.image_name }}" alt="Peter" width="80">
+                    <br>
+                    <span class="name">{{ user.first_name }}</span>
+                  {% if user.link != null %}
+                    </a>
+                  {% endif %}
+                </td>
+              {% endfor %}
+              <td>&nbsp;</td>
             </tr>
           </table>
         </div>
@@ -38,12 +38,17 @@ layout: default
   </div>
 {% endunless %}
 
+<div class="content-container episodes-header">
+  <h1>Avsnitt</h1>
+</div>
+
 <div class="post-container">
   {% for post in paginator.posts %}
     <div class="post-teaser-block">
       <div class="content-container">
         <h2>
           <a href="{{ post.url | relative_url }}">
+            <span class="post-number">{{ post.number }}:</span>
             {{ post.title | escape }}
           </a>
         </h2>
@@ -62,12 +67,12 @@ layout: default
   {% endfor %}
 </div>
 
-<div class="pagination">
+<div class="pagination-on-home">
   <div class="content-container">
     {% if paginator.next_page %}
     <a class="pagination-button pagination-active next" href="{{ paginator.next_page_path }}">&lt;/— Nyare</a>
     {% else %}
-      <span class="pagination-button">&lt;/— Nyare</span>
+      <span class="pagination-button next">&lt;/— Nyare</span>
     {% endif %}
 
     {% if paginator.previous_page %}

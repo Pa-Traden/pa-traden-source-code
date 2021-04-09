@@ -18,16 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: På Tråden
+email: pa.traden@knightec.se
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I "På Tråden" diskuterar Peter van der Meulen och Jeger Ibrahim varanan vecka
+  deras erfarenheter och utmaningar inom Java, Ruby, JavaScript, Rust,
+  MySql, Postgres eller vad som dyker upp på tråden ;).
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://patraden.knightec.se" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: DewirePaTraden
+github_username:  pa-Traden
+instagram_username: pa.traden
+audio_domain: https://pa-traden-files.ams3.digitaloceanspaces.com
 
 # Build settings
 plugins:
@@ -44,6 +46,20 @@ sass:
 pagination:
   enabled: true
   per_page: 5
+
+users:
+- id: 1
+  active: true
+  first_name: Peter
+  last_name: van der Meulen
+  image_name: peter.jpg
+  link: https://hendrikpeter.net
+- id: 2
+  active: true
+  first_name: Jeger
+  last_name: Ibrahim
+  image_name: jeger.jpg
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

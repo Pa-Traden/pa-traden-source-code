@@ -2,4 +2,27 @@
 layout: default
 ---
 
-{{ content }}
+<div class="post-page-container">
+  <div class="content-container">
+    <h1>{{page.number}}: {{ page.title }}</h1>
+    <div class="date">
+      {{ page.date_human }}
+      ||
+      {{ page.length }}
+    </div>
+
+    <audio id="player" class="media-player" controls>
+      <source src="{{ site.audio_domain }}/{{ page.audio_mp3 }}" type="audio/mp3" />
+      <source src="{{ site.audio_domain }}/{{ page.audio_ogg }}" type="audio/ogg" />
+    </audio>
+    <!-- Music player js -->
+    <script src="https://cdn.plyr.io/3.6.4/plyr.polyfilled.js"></script>
+    <script>
+      const player = new Plyr('#player');
+    </script>
+
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </div>
+</div>

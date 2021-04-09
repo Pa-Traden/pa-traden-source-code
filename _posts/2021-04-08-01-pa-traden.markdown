@@ -1,0 +1,34 @@
+---
+layout: post
+guid: 57febea4-ef42-426a-bdbf-7d9dde992cc8
+number: '001'
+title: 'På Tråden'
+date: 2021-04-08 15:16:46 +0200
+date_human: 08 April 2021
+length: 39 minuter 49 sekunder
+categories: podcast
+keywords: rails java sql postgres mysql developers dewire
+audio_mp3: 001-pa-traden.mp3
+audio_ogg: 001-pa-traden.ogg
+audio_mp3_size: 95605038
+audio_mp3_duration: 39:50
+---
+
+Det första avsnittet!
+Peter och Jeger sätter sig i Dewire:s lunchrum och snackar om precis allt de
+håller på med.  
+Jeger delar en del saker som händer inom mySQL och Peter
+berättar om MimeMagic som pajar allt inom Ruby on Rails just nu.
+
+<!--more-->
+
+## I avsnitet
+
+[Ruby on Rails](https://rubyonrails.org/){:target="\_blank"}  
+[Logging & tracing genom New relic](https://docs.newrelic.com/docs/integrations/kubernetes-integration/installation/kubernetes-integration-install-configure/){:target="\_blank"}  
+[JBoss](https://www.jboss.org/){:target="\_blank"}  
+[MimeMagic paj](https://dev.to/cseeman/what-s-up-with-mimemagic-breaking-everything-he1){:target="\_blank"}  
+[Vertex asynkron ramvärk](https://vertx.io){:target="\_blank"}  
+[PGBouncer postgres magi](https://www.pgbouncer.org/){:target="\_blank"}  
+[Hibernate Data i Java](https://hibernate.org/){:target="\_blank"}  
+[Vitess databasklustringssystem ](https://vitess.io/){:target="\_blank"}

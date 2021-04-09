@@ -5,8 +5,16 @@
   --box-shadow-color: rgba(0, 0, 0, 0.2);
   --white-text-hover-color: rgba(255, 255, 255, 0.7);
   --main-text-hover-color: rgba(41, 41, 41, 0.7);
+  --main-text-disabled-color: rgba(41, 41, 41, 0.3);
   --main-dark-overlays-color: rgba(0, 0, 0, 0.5);
   --transparent-white-color: rgba(255, 255, 255, 0);
 
-  --content-block-bg-color: #F0F0F0;
+  --content-block-bg-color: #F5F5F5;
+
+  --content-red-color: rgba(162, 26, 52, 1);
+  --content-red-hover-color: rgba(162, 26, 52, 0.7);
+
+  --content-blue-color: rgba(116, 173, 166, 1);
+  --content-blue-overlay-color: rgba(116, 173, 166, 0.8);
+  --content-blue-shadow-color: rgba(116, 173, 166, 0.5);
 }
