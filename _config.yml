@@ -21,7 +21,7 @@
 title: På Tråden
 email: pa.traden@knightec.se
 description: >- # this means to ignore newlines until "baseurl:"
-  I "På Tråden" diskuterar Peter van der Meulen och Jeger Ibrahim varanan vecka
+  I På Tråden diskuterar Peter van der Meulen och Jeger Ibrahim varanan vecka
   deras erfarenheter och utmaningar inom Java, Ruby, JavaScript, Rust,
   MySql, Postgres eller vad som dyker upp på tråden ;).
 baseurl: "" # the subpath of your site, e.g. /blog
