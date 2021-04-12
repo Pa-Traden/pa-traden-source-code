@@ -5,13 +5,13 @@ number: '001'
 title: 'På Tråden'
 date: 2021-04-12 12:00:00 +0200
 date_human: 12 April 2021
-length: 39 minuter 49 sekunder
+length: 35 minuter 56 sekunder
 categories: podcast
 keywords: rails java sql postgres mysql developers dewire
 audio_mp3: 001-pa-traden.mp3
 audio_ogg: 001-pa-traden.ogg
-audio_mp3_size: 95605038
-audio_mp3_duration: 39:50
+audio_mp3_size: 86265198
+audio_mp3_duration: 35:56
 ---
 
 Det första avsnittet!
@@ -26,7 +26,7 @@ berättar om MimeMagic som pajar allt inom Ruby on Rails just nu.
 
 ljudkvaliteten är inte 100% perfekt, ljudet i framtida avsnitt kommer att förbättras ;).
 
-## I avsnitet
+## I avsnittet
 
 [Ruby on Rails](https://rubyonrails.org/){:target="\_blank"}  
 [Logging & tracing genom New relic](https://docs.newrelic.com/docs/integrations/kubernetes-integration/installation/kubernetes-integration-install-configure/){:target="\_blank"}  

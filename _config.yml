@@ -29,7 +29,7 @@ url: "https://patraden.knightec.se" # the base hostname & protocol for your site
 twitter_username: DewirePaTraden
 github_username:  pa-Traden
 instagram_username: pa.traden
-audio_domain: https://pa-traden-files.ams3.digitaloceanspaces.com
+audio_domain: https://pa-traden.hendrikpeterfiles.net
 
 # Build settings
 plugins:

@@ -109,3 +109,14 @@
   }
 }
 
+
+.privacy-link a {
+  color: var(--main-text-disabled-color);
+  border-bottom: 2px solid var(--transparent-white-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--main-text-hover-color);
+    border-bottom: 2px solid var(--main-text-hover-color);
+  }
+}
