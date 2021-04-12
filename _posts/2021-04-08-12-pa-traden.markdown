@@ -3,8 +3,8 @@ layout: post
 guid: 57febea4-ef42-426a-bdbf-7d9dde992cc8
 number: '001'
 title: 'På Tråden'
-date: 2021-04-08 15:16:46 +0200
-date_human: 08 April 2021
+date: 2021-04-12 12:00:00 +0200
+date_human: 12 April 2021
 length: 39 minuter 49 sekunder
 categories: podcast
 keywords: rails java sql postgres mysql developers dewire
@@ -21,6 +21,10 @@ Jeger delar en del saker som händer inom mySQL och Peter
 berättar om MimeMagic som pajar allt inom Ruby on Rails just nu.
 
 <!--more-->
+
+## disclaimer:
+
+ljudkvaliteten är inte 100% perfekt, ljudet i framtida avsnitt kommer att förbättras ;).
 
 ## I avsnitet
 
