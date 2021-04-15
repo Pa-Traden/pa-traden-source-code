@@ -32,7 +32,7 @@
          <guid isPermaLink="false">{{ post.guid }}</guid>
          <pubDate>{{ post.date }}</pubDate>
          <author>Knightec Dewire</author>
-         <enclosure url="{{ site.url }}/assets/media/{{post.audio_mp3}}" length="{{ post.audio_mp3_size }}" type="audio/mpeg" />
+         <enclosure url="{{ site.audio_domain }}/{{post.audio_mp3}}" length="{{ post.audio_mp3_size }}" type="audio/mpeg" />
          <itunes:episodeType>full</itunes:episodeType>
          <itunes:author>Knightec Dewire</itunes:author>
          <itunes:subtitle>{{ post.excerpt | strip_html }}</itunes:subtitle>
