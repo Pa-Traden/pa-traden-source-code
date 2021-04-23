@@ -25,7 +25,7 @@
         </itunes:category>
       {% endfor %}
 
-      {% for post in site.posts %}
+      {% for post in site.posts reversed %}
       <item>
          <title>{{ post.number }}: {{ post.title | escape }}</title>
          <link>{{ site.url }}{{ post.url | relative_url }}</link>
