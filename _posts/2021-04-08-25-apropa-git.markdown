@@ -3,9 +3,9 @@ layout: post
 guid: c2f028fd-1cbc-4994-bd3f-ab147a616700
 number: '002'
 title: 'Apropå Git'
-date: 2021-04-25 12:00:00 +0200
+date: 2021-04-25 06:00:00 +0200
 date_human: 25 April 2021
-length: 43 minuter 01 sekunder
+length: 43 minuter 00 sekunder
 categories: podcast
 keywords: rails java sql active-record elixir rust
 audio_mp3: 002-apropa-git.mp3
