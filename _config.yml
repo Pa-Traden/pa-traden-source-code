@@ -29,6 +29,7 @@ url: "https://patraden.knightec.se" # the base hostname & protocol for your site
 twitter_username: DewirePaTraden
 github_username:  pa-Traden
 instagram_username: pa.traden
+spotify_uri: https://open.spotify.com/show/3A2fj6rPOLulqHuwGsgoWq
 audio_domain: https://d3escsfxfzn25u.cloudfront.net
 
 # Build settings
