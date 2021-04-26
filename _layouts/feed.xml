@@ -29,9 +29,11 @@
       {% for post in site.posts reversed %}
       <item>
          <title>{{ post.number }}: {{ post.title | escape }}</title>
+         <itunes:episode>{{ post.number }}</itunes:episode>
+         <itunes:episodeType>full</itunes:episodeType>
          <link>{{ site.url }}{{ post.url | relative_url }}</link>
          <guid isPermaLink="false">{{ post.guid }}</guid>
-         <pubDate>{{ post.date }}</pubDate>
+         <pubDate>{{ post.date | date: "%a, %d %B %H:%M:%S %z" }}</pubDate>
          <author>Knightec Dewire</author>
          <enclosure url="{{ site.audio_domain }}/{{post.audio_mp3}}" length="{{ post.audio_mp3_size }}" type="audio/mpeg" />
          <itunes:episodeType>full</itunes:episodeType>
