@@ -11,7 +11,7 @@ keywords: rails java sql active-record elixir rust
 audio_mp3: 002-apropa-git.mp3
 audio_ogg: 002-apropa-git.ogg
 audio_mp3_size: 103495245
-audio_mp3_duration: 43:01
+audio_mp3_duration: '43:01'
 ---
 
 En ny gruppmedlem, Kim från Daresay deltar i diskussionen!

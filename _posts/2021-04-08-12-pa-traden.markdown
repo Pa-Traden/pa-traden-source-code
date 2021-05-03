@@ -11,7 +11,7 @@ keywords: rails java sql postgres mysql developers dewire
 audio_mp3: 001-pa-traden-start.mp3
 audio_ogg: 001-pa-traden-start.ogg
 audio_mp3_size: 86522203
-audio_mp3_duration: 35:56
+audio_mp3_duration: '35:56'
 ---
 
 Det första avsnittet!
