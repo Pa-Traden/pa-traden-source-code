@@ -33,7 +33,7 @@
          <itunes:episodeType>full</itunes:episodeType>
          <link>{{ site.url }}{{ post.url | relative_url }}</link>
          <guid isPermaLink="false">{{ post.guid }}</guid>
-         <pubDate>{{ post.date | date: "%a, %d %B %H:%M:%S %z" }}</pubDate>
+         <pubDate>{{ post.date | date: "%a, %d %B %Y %H:%M:%S %z" }}</pubDate>
          <author>Knightec Dewire</author>
          <enclosure url="{{ site.audio_domain }}/{{post.audio_mp3}}" length="{{ post.audio_mp3_size }}" type="audio/mpeg" />
          <itunes:episodeType>full</itunes:episodeType>
