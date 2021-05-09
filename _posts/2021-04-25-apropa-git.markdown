@@ -14,8 +14,7 @@ audio_mp3_size: 103495245
 audio_mp3_duration: '43:01'
 ---
 
-En ny gruppmedlem, Kim från Daresay deltar i diskussionen!
-Teamet snackar om uppdateringen av rails 5.2. till 6, Hibernate och elixir!
+En ny gruppmedlem, Kim från Daresay deltar i diskussionen! Teamet snackar om uppdateringen av rails 5.2. till 6, Hibernate och elixir!
 
 <!--more-->
 

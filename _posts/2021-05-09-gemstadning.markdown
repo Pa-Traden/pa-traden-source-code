@@ -14,8 +14,7 @@ audio_mp3_size: 105349713
 audio_mp3_duration: '43:47'
 ---
 
-Jeger snackar om alternativa SQL adaptrar till Java, Kim fortsätter uppdatera
-och kommer att bygga ett smart hem och Peter snackar om hans "gemstädning"
+Jeger snackar om alternativa SQL adaptrar till Java, Kim fortsätter uppdatera och kommer att bygga ett smart hem och Peter snackar om hans "gemstädning".
 
 <!--more-->
 
