@@ -28,11 +28,11 @@ ljudkvaliteten är inte 100% perfekt, ljudet i framtida avsnitt kommer att förb
 
 ## I avsnittet
 
-[Ruby on Rails](https://rubyonrails.org/){:target="\_blank"}  
-[Logging & tracing genom New relic](https://docs.newrelic.com/docs/integrations/kubernetes-integration/installation/kubernetes-integration-install-configure/){:target="\_blank"}  
-[JBoss](https://www.jboss.org/){:target="\_blank"}  
-[MimeMagic paj](https://dev.to/cseeman/what-s-up-with-mimemagic-breaking-everything-he1){:target="\_blank"}  
-[Vertex asynkron ramvärk](https://vertx.io){:target="\_blank"}  
-[PGBouncer postgres magi](https://www.pgbouncer.org/){:target="\_blank"}  
-[Hibernate Data i Java](https://hibernate.org/){:target="\_blank"}  
-[Vitess databasklustringssystem ](https://vitess.io/){:target="\_blank"}
+- [Ruby on Rails](https://rubyonrails.org/){:target="\_blank"}
+- [Logging & tracing genom New relic](https://docs.newrelic.com/docs/integrations/kubernetes-integration/installation/kubernetes-integration-install-configure/){:target="\_blank"}
+- [JBoss](https://www.jboss.org/){:target="\_blank"}
+- [MimeMagic paj](https://dev.to/cseeman/what-s-up-with-mimemagic-breaking-everything-he1){:target="\_blank"}
+- [Vertex asynkron ramvärk](https://vertx.io){:target="\_blank"}
+- [PGBouncer postgres magic](https://www.pgbouncer.org/){:target="\_blank"}
+- [Hibernate Data i Java](https://hibernate.org/){:target="\_blank"}
+- [Vitess databasklustringssystem ](https://vitess.io/){:target="\_blank"}
