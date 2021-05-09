@@ -75,6 +75,7 @@ users:
   first_name: Kim
   last_name: Fransman
   image_name: kim.jpg
+  link: https://fransman.se/
 
 
 # Exclude from processing.
