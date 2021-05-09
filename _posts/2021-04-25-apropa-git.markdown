@@ -7,7 +7,7 @@ date: 2021-04-25 06:00:00 +0200
 date_human: 25 April 2021
 length: 43 minuter 00 sekunder
 categories: podcast
-keywords: 'rails, java, sql, active-record, elixir, rust'
+keywords: 'rails,java,sql,active-record,elixir,rust'
 audio_mp3: 002-apropa-git.mp3
 audio_ogg: 002-apropa-git.ogg
 audio_mp3_size: 103495245

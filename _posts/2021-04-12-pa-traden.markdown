@@ -7,7 +7,7 @@ date: 2021-04-12 12:00:00 +0200
 date_human: 12 April 2021
 length: 35 minuter 56 sekunder
 categories: podcast
-keywords: 'rails, java, sql, postgres, mysql, developers, dewire'
+keywords: 'rails,java,sql,postgres,mysql,developers,dewire'
 audio_mp3: 001-pa-traden-start.mp3
 audio_ogg: 001-pa-traden-start.ogg
 audio_mp3_size: 86522203
