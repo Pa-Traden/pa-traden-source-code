@@ -7,7 +7,7 @@ date: 2021-05-09 06:00:00 +0200
 date_human: 09 Maj 2021
 length: 43 minuter 47 sekunder
 categories: podcast
-keywords: rails java sql active-record rust jekyll
+keywords: 'rails, java, sql, active-record, rust, jekyll'
 audio_mp3: 003-gemstadning.mp3
 audio_ogg: 003-gemstadning.ogg
 audio_mp3_size: 105349713

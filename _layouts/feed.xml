@@ -4,13 +4,14 @@
       {% for latest_post in site.posts limit:1 %}
         <title>På Tråden</title>
         <link>{{ site.url }}</link>
+        <atom:link href="https://patraden.knightec.se/feed.xml" rel="self" type="application/rss+xml"/>
         <pubDate>{{ latest_post.date }}</pubDate>
         <description>{{ site.description }}</description>
         <language>sv</language>
         <itunes:type>episodic</itunes:type>
         <itunes:subtitle />
         <itunes:author>Knightec Dewire</itunes:author>
-        <itunes:summary>{{ site.description }}</itunes:summary>
+        <itunes:summary>{{ site.description | strip_html }}</itunes:summary>
         <itunes:image href="{{ site.url }}/assets/images/albumart.jpg" />
         <itunes:explicit>no</itunes:explicit>
         <itunes:keywords>web development,ruby,javascript,rails,back-end,front-end,app development,graphql,developer,swedish</itunes:keywords>
@@ -30,8 +31,8 @@
       <item>
          <title>{{ post.number }}: {{ post.title | escape }}</title>
          <itunes:episode>{{ post.number }}</itunes:episode>
-         <itunes:episodeType>full</itunes:episodeType>
          <link>{{ site.url }}{{ post.url | relative_url }}</link>
+         <atom:link href="https://patraden.knightec.se/feed.xml" rel="self" type="application/rss+xml"/>
          <guid isPermaLink="false">{{ post.guid }}</guid>
          <pubDate>{{ post.date | date: "%a, %d %B %Y %H:%M:%S %z" }}</pubDate>
          <author>Knightec Dewire</author>
