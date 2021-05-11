@@ -19,7 +19,7 @@ layout: default
               {% for user in users %}
                 <td class="person">
                   {% if user.link != null %}
-                    <a href="https://hendrikpeter.net" target="_blank">
+                    <a href="{{ user.link }}" target="_blank">
                   {% endif %}
                     <img src="/assets/images/people/{{ user.image_name }}" alt="Peter" width="80">
                     <br>
