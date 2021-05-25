@@ -12,6 +12,7 @@ audio_mp3: 004-will-it-build.mp3
 audio_ogg: 004-will-it-build.ogg
 audio_mp3_size: 121215930
 audio_mp3_duration: '50:24'
+album_art: '004-cover.jpg'
 ---
 
 "Jode" hänger med på Podden, Jeger snackar om Maven, Kim jobbar med nyanställda och Peter mobprogramerar

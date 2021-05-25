@@ -42,7 +42,7 @@
          <itunes:subtitle>{{ post.excerpt | strip_html }}</itunes:subtitle>
          <itunes:duration>{{ post.audio_mp3_duration }}</itunes:duration>
          <itunes:explicit>no</itunes:explicit>
-         <itunes:image href="{{ site.url }}/assets/images/albumart.jpg" />
+         <itunes:image href="{{ site.url }}/assets/images/{% if post.album_art %}episode-pics/{{ post.album_art }} {% else %}albumart.jpg{% endif %}" />
          <description>{{ post.content | strip_html }}</description>
          <itunes:keywords>{{ post.keywords }}</itunes:keywords>
          <content:encoded><![CDATA[{{ post.content | replace: '%20%3C!--more--%3E', '' }}]]></content:encoded>
