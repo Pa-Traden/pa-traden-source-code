@@ -31,5 +31,5 @@ album_art: '004-cover.jpg'
 - [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/){:target="\_blank"}
 - [Tuple Mob Programming](https://tuple.app/){:target="\_blank"}
 - [MobTimer](https://agility.jahed.dev/){:target="\_blank"}
-- [SVT om mobprogramering](ttps://medium.com/the-svt-tech-blog/100-of-the-team-in-a-mob-for-12-months-taking-mob-programming-a-couple-of-steps-further-3335f7994baf){:target="\_blank"}
+- [SVT om mobprogramering](https://medium.com/the-svt-tech-blog/100-of-the-team-in-a-mob-for-12-months-taking-mob-programming-a-couple-of-steps-further-3335f7994baf){:target="\_blank"}
 - [ActiveModel::Serializers](https://github.com/rails-api/active_model_serializers){:target="\_blank"}
