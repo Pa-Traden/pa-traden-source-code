@@ -23,7 +23,7 @@ Peter snackar om Feature toggles, Jeger om Scala och Kim om vivification, medans
 
 
 - [vivification](https://www.urbanautomaton.com/blog/2020/11/04/rails-autoloading-heaven/){:target="\_blank"}
-- [est framework Java](https://www.archunit.org/){:target="\_blank"}
+- [Test framework Java](https://www.archunit.org/){:target="\_blank"}
 - [RSpec-rails](https://github.com/rspec/rspec-rails){:target="\_blank"}
 - [Scala 3.0](https://www.scala-lang.org/download/scala3.htm){:target="\_blank"}
 - [Kotlin 1.5](https://kotlinlang.org/docs/whatsnew15.html){:target="\_blank"}
