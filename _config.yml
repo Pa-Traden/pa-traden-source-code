@@ -55,6 +55,7 @@ sass:
   style: compressed
 
 pagination:
+  sort_reverse: true
   enabled: true
   per_page: 5
 
